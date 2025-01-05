@@ -1,0 +1,35 @@
+<div class="Head">
+    <h2>CONTACT SECTION</h2>
+    <div class="Second position-relative">
+        <div class="line">
+        </div>
+        <i class="fa-solid fa-star"></i>
+        <div class="hash-line">
+        </div> <br> <br>
+    </div>
+</div>
+<div class="ContactForm my-5">
+    @if (Data) {
+        <label for="userName" class="labelStyle">userName:</label>
+    }
+    <input class="form-control w-50 mb-5 border-top-0 border-start-0 border-end-0" placeholder="userName" type="text"
+        name="userName" id="userName" [(ngModel)]="Data">
+    @if (Data2) {
+        <label for="userAge" class="labelStyle">userAge:</label>
+    }
+    <input class="form-control w-50 mb-5 border-top-0 border-start-0 border-end-0" placeholder="userAge" type="text"
+        name="userAge" id="userAge" [(ngModel)]="Data2">
+    @if (Data3) {
+        <label for="userEmail" class="labelStyle">userEmail:</label>
+    }
+    <input class="form-control w-50 mb-5 border-top-0 border-start-0 border-end-0" placeholder="userEmail" type="email"
+        name="userEmail" id="userEmail" [(ngModel)]="Data3">
+   @if (Data4) {
+    <label for="userPassword" class="labelStyle">userPassword:</label>
+   }
+    <input class="form-control w-50 mb-3 border-top-0 border-start-0 border-end-0" placeholder="userPassword"
+        type="password" name="userPassword" id="userPassword" [(ngModel)]="Data4">
+    <div class="Btn">
+        <button class="btn bg-main text-white">Send Message</button>
+    </div>
+</div> <br> <br>

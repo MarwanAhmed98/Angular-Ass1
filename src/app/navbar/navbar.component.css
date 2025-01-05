@@ -1,0 +1,24 @@
+
+.bg-body-tertiary{
+    background-color: #2c3e50 !important;
+}
+#navbarNav{
+    color: white;
+}
+.navbar{
+    --bs-navbar-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.navbar-nav{
+    --bs-nav-link-hover-color: white;
+}
+.navbar-brand{
+    color: white !important;
+    font-weight: bold;
+    font-size: 40px;
+}
+.bg-main{
+    background-color: #1abc9c;
+}

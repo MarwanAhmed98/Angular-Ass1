@@ -1,0 +1,13 @@
+.NotFound{
+    text-align: center;
+}
+h1{
+    font-size: 186px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #dee2e6;
+}
+h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+}

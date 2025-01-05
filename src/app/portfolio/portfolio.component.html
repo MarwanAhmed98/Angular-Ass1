@@ -1,0 +1,81 @@
+<div class="Portfolio">
+    <h2>PORTFOLIO COMPONENT</h2>
+    <div class="Second position-relative">
+        <div class="line">
+        </div>
+        <i class="fa-solid fa-star"></i>
+        <div class="hash-line">
+        </div> <br> <br>
+    </div>
+    <div class="Cards">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-4">
+                    <div class="Inner-Card position-relative " (click)="open('/images/poert1.png')" >
+                        <img  src="/images/poert1.png" class="rounded-4" alt="" >
+                        <div class="Layer rounded-4">
+                            <div class="LayerIcon">
+                                <i class="fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="Inner-Card position-relative" (click)="open('images/port2.png')">
+                        <img src="images/port2.png" class="rounded-4" alt="">
+                        <div class="Layer rounded-4">
+                            <div class="LayerIcon">
+                                <i class="fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="Inner-Card position-relative " (click)="open('images/port3.png')">
+                        <img src="images/port3.png" class="rounded-4" alt="">
+                        <div class="Layer rounded-4">
+                            <div class="LayerIcon">
+                                <i class="fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="Inner-Card position-relative " (click)="open('/images/poert1.png')">
+                        <img src="images/poert1.png" class="rounded-4" alt="" >
+                        <div class="Layer rounded-4">
+                            <div class="LayerIcon">
+                                <i class="fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="Inner-Card position-relative " (click)="open('images/port2.png')">
+                        <img src="images/port2.png" class="rounded-4" alt="">
+                        <div class="Layer rounded-4">
+                            <div class="LayerIcon">
+                                <i class="fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="Inner-Card position-relative " (click)="open('images/port3.png')">
+                        <img src="images/port3.png" class="rounded-4" alt="">
+                        <div class="Layer rounded-4">
+                            <div class="LayerIcon">
+                                <i class="fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <br> <br>
+@if (isclick==true) {
+    <div class="ImgLayer">
+        <img [src]="CurrentImg" (click)="Closeee()" alt="">
+    </div>
+}

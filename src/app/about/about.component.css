@@ -1,0 +1,46 @@
+.About {
+    text-align: center;
+    background-color: #1abc9c;
+    color: white;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Second {
+    display: flex;
+    justify-content: center;
+}
+
+.line::before {
+    position: absolute;
+    content: "";
+    top: 6px;
+    left: 52%;
+    width: 100px;
+    height: 5px;
+    background-color: white;
+
+}
+
+.hash-line::before {
+    position: absolute;
+    content: "";
+    top: 6px;
+    right: 52%;
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    margin-left: 25px;
+}
+
+.P {
+    display: flex;
+    padding-inline: 25px;
+}
+.P p{
+    padding-right: 15px;
+    width: 50%;
+    padding-left: 50px;
+}
